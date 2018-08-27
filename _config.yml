@@ -1,10 +1,10 @@
 # Site settings
 title: 史歌
-SEOTitle: 史歌的个人主页 | Personal Website
+SEOTitle: 史歌的个人主页 | Ge Shi Personal Website
 header-img: img/post-bg-desk.jpg
 email: gshi25@wisc.edu
 description: "Never Give Up."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
+keyword: "Ge Shi, Personal Website, 史歌的博客"
 url: "http://buyutu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/buyutu/buyutu.github.io.git" # you code repository
@@ -62,11 +62,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 956b10873bcf45b08c25                            #生成的clientID
+  clientSecret: eca488f8241de515f4af078dcba02d18b7e22cca    #生成的clientSecret
+  repo: buyutu.github.io    #仓库名称
+  owner: buyutu    #github用户名
+  admin: buyutu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -76,9 +76,9 @@ gitalk:
 # Baidu Analytics
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
-# Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+Google Analytics
+ga_track_id: 'UA-124756080-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -99,16 +99,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "UW-Madison",
+        href: "https://www.wisc.edu/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "CQJTU",
+        href: "http://www.cqjtu.com/"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "UrbanXYZ",
+        href: "www.urbanxyz.com/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Google",
+        href: "https://www.google.com"
     }
 ]
